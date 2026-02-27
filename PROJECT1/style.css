@@ -1,0 +1,110 @@
+@font-face {
+    font-family: gillroy;
+    src: url(Fonts/Gilroy-Medium.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gillroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: grey; */
+}
+
+#nav{
+    height: 10vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+    /* border: 2px solid black; */
+    padding: 0px 30px;
+}
+
+#nav h4{
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+}
+
+#nav i{
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+}
+#center{
+    /* background-color: red; */
+    /* height: 40%; */
+    width: 100%;
+    padding: 40px 80px;
+}
+#center h1{
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 90px;
+}
+#center-in {
+    margin-top: 50px;
+    /* background-color: red; */
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#center-in p{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+#right{
+    width: 20%;
+}
+
+.elem{
+    /* background-color: yellow; */
+    /* margin: 5px; */
+    padding: 20px 0px;
+    border-top: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.elem a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 20px;
+}
+.elem i{
+    font-size: 25px;
+    font-weight: 500;
+    opacity: 0;
+}
+.elem:hover i{
+    opacity: 1;
+}
+.elem:hover a{
+    text-decoration: underline;
+}
+
+#bottom{
+    height: 100%;
+    width: 100%;
+    background-image: url(Images/Hero-Image.jpg);
+    background-size: cover;
+    background-position: 0% 95%;
+}
